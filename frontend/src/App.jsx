@@ -16,6 +16,7 @@ import PostItemPage from "./pages/PostItemPage";
 import SearchResultsPage from "./pages/SearchResultsPage";
 import ProductPage from "./pages/ProductPage";
 import ListedItemsPage from "./pages/ListedItemsPage";
+import ManageAddressesPage from "./pages/ManageAddressesPage";
 import "./App.css";
 
 function App() {
@@ -87,6 +88,14 @@ function App() {
 					element={
 						<PrivateRoute>
 							<ListedItemsPage />
+						</PrivateRoute>
+					}
+				/>
+				<Route
+					path='/manage-addresses'
+					element={
+						<PrivateRoute>
+							<ManageAddressesPage />
 						</PrivateRoute>
 					}
 				/>

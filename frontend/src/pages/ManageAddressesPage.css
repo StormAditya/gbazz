@@ -1,0 +1,84 @@
+.manage-addresses-page {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.manage-addresses-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.manage-addresses-container h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.manage-addresses-container p {
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.address-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.address-input-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.address-input-group label {
+    font-weight: bold;
+    width: 100px;
+    text-align: left;
+}
+
+.address-input-group input {
+    flex-grow: 1;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.btn-discard,
+.btn-save {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-discard {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.btn-save {
+    background-color: #ff9900;
+    color: white;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 1rem;
+}

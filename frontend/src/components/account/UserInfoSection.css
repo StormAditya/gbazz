@@ -1,11 +1,28 @@
 .user-info-section {
 	padding: 20px;
+	background-color: #fff;
+	border-radius: 8px;
 }
 
-.user-info-section h3 {
-	margin-top: 20px;
+.user-info-section h2 {
+	margin-top: 0;
+	margin-bottom: 20px;
 }
 
-.user-info-section p {
-	margin: 5px 0;
+.info-grid {
+	display: grid;
+	grid-template-columns: max-content 5fr;
+	gap: 10px 10px;
+	align-items: start;
+}
+
+.info-label {
+	font-weight: bold;
+	text-align: left;
+}
+
+.info-value {
+	text-align: left;
+	overflow-wrap: break-word;
+	min-width: 0;
 }

@@ -42,7 +42,10 @@ router.get(
 router.get(
 	"/:id",
 	asyncHandler(async (req, res) => {
-		const item = await Item.findById(req.params.id).populate("user", "name");
+		const item = await Item.findById(req.params.id).populate(
+			"user",
+			"name addresses"
+		);
 
 		if (item) {
 			res.json(item);

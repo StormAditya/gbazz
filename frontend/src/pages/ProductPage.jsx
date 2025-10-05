@@ -60,7 +60,7 @@ const ProductPage = () => {
 							</div>
 						</div>
 						<p className='seller-address'>
-							Address: Lorem ipsum dolor sit amet, consectetur
+							Address: {item.user?.addresses?.[0] || "Address not available"}
 						</p>
 					</div>
 				</div>
