@@ -1,0 +1,75 @@
+.listed-items-page {
+	padding: 20px;
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: #f0f2f5;
+}
+
+.listed-items-page h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.items-list {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.item-card {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.item-image {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 20px;
+}
+
+.item-info {
+	flex-grow: 1;
+}
+
+.item-date {
+	font-weight: bold;
+	color: #4a90e2;
+}
+
+.item-name,
+.item-purchases {
+	margin: 5px 0;
+}
+
+.item-actions {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.btn-edit,
+.btn-remove {
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btn-edit {
+	background-color: #ff9f1c;
+	color: white;
+}
+
+.btn-remove {
+	background-color: #333;
+	color: white;
+}

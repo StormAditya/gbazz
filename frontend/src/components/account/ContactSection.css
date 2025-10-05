@@ -1,0 +1,12 @@
+.contact-section h3 {
+	margin-top: 0;
+}
+
+.contact-section ul {
+	list-style: none;
+	padding: 0;
+}
+
+.contact-section li {
+	margin-bottom: 10px;
+}

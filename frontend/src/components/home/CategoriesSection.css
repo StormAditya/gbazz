@@ -1,0 +1,25 @@
+.categories-section {
+	padding: 50px 20px;
+	text-align: center;
+}
+
+.categories-grid {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	margin-top: 30px;
+}
+
+.category-card {
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 120px;
+	text-align: center;
+}
+
+.category-icon {
+	font-size: 2.5rem;
+	margin-bottom: 10px;
+}

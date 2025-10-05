@@ -1,0 +1,34 @@
+.hero-section {
+	background-color: #f0f2f5;
+	padding: 100px 20px;
+	text-align: center;
+}
+
+.hero-content h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+.hero-content p {
+	font-size: 1.2rem;
+	margin-bottom: 30px;
+}
+
+.hero-buttons .btn-primary {
+	background-color: #4a90e2;
+	color: white;
+	padding: 15px 30px;
+	border: none;
+	border-radius: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.hero-buttons .btn-secondary {
+	background-color: transparent;
+	color: #4a90e2;
+	padding: 15px 30px;
+	border: 1px solid #4a90e2;
+	border-radius: 5px;
+	cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.auth-buttons,
+.auth-buttons-signup {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.main-auth-btn,
+.secondary-auth-btn {
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+}
+
+.main-auth-btn {
+	background-color: #ff4d4d;
+	color: white;
+	border: none;
+}
+
+.secondary-auth-btn {
+	background-color: #eee;
+	color: #333;
+	border: 1px solid #ccc;
+}

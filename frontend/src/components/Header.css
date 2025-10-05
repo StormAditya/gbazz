@@ -1,0 +1,58 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+}
+
+.header-left .logo {
+	font-size: 24px;
+	font-weight: bold;
+	color: #ff9900;
+}
+
+.header-right .icon {
+	margin-left: 20px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.header-right .icon-plus {
+	border: 1px solid #000;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.header-center {
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.header-center form {
+	display: flex;
+	width: 100%;
+	max-width: 500px;
+}
+
+.header-center input {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px 0 0 5px;
+}
+
+.header-center button {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-left: none;
+	background-color: #f0f0f0;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+}
+
+.header-right a {
+	color: inherit;
+}
