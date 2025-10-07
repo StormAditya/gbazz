@@ -16,6 +16,8 @@
 
 .password-input-container {
 	position: relative;
+	width: 500px;
+
 }
 
 .password-toggle-icon {

@@ -42,6 +42,7 @@ const SignUp = () => {
 	};
 
 	return (
+		<section className='auth-page login-page'>
 		<div className='auth-container'>
 			<div className='auth-card'>
 				<AuthHeader />
@@ -63,6 +64,7 @@ const SignUp = () => {
 				</form>
 			</div>
 		</div>
+	</section>
 	);
 };
 
