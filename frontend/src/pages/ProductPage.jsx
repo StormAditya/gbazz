@@ -49,14 +49,12 @@ const ProductPage = () => {
 					<h1>{item.name}</h1>
 					<p className='product-price'>Rs. {item.price}</p>
 					<p className='product-description'>{item.description}</p>
-					<button className='make-deal-button'>MAKE A DEAL</button>
 					<div className='seller-info'>
 						<h3>About the seller</h3>
 						<div className='seller-details'>
 							<FaUserCircle className='seller-avatar' />
 							<div className='seller-text'>
-				<p className='seller-name'>{item.user ? item.user.name : "Unknown Seller"}</p>
-								<p className='seller-meta'>Seller info like branch, year</p>
+								<p className='seller-name'>{item.user ? item.user.name : "Unknown Seller"}</p>
 							</div>
 						</div>
 						<p className='seller-address'>

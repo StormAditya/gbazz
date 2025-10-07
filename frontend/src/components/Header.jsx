@@ -40,9 +40,6 @@ const Header = () => {
 				<Link to='/account'>
 					<FaUser className='icon' />
 				</Link>
-				<Link to='/post-item'>
-					<FaPlus className='icon icon-plus' />
-				</Link>
 			</div>
 		</header>
 	);

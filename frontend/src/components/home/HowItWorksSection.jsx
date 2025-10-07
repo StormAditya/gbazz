@@ -17,11 +17,6 @@ const HowItWorksSection = () => {
 					<h3>Connect with Buyers</h3>
 					<p>Chat directly with interested buyers and negotiate the best price.</p>
 				</div>
-				<div className='step'>
-					<div className='step-number'>3</div>
-					<h3>Close the Deal</h3>
-					<p>Meet safely and complete your transaction with confidence.</p>
-				</div>
 			</div>
 		</div>
 	);

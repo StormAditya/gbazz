@@ -6,7 +6,7 @@ const categories = [
 	{ name: "Furniture", icon: "🛋️" },
 	{ name: "Books", icon: "📚" },
 	{ name: "Vehicles", icon: "🚲" },
-	{ name: "More", icon: "🔍" },
+	{ name: "Misc", icon: "🔍" },
 ];
 
 const CategoriesSection = () => {

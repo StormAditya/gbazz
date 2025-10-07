@@ -16,7 +16,6 @@ const HomePage = () => {
 			<CategoriesSection />
 			<FeaturedDealsSection keyword={keyword} />
 			<HowItWorksSection />
-			<TestimonialsSection />
 		</div>
 	);
 };

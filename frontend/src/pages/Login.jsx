@@ -50,9 +50,6 @@ const Login = () => {
 						/>
 						<AuthButtons isSignUp={false} loading={loading} />
 					</form>
-					<Link to='/forgot-password' className='forgot-password'>
-						FORGOT PASSWORD?
-					</Link>
 				</div>
 			</div>
 		</section>

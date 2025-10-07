@@ -8,12 +8,6 @@ const AccountSection = () => {
 			<h2>Profile</h2>
 			<p>Our recommendations are tailored to you based on your profile choices.</p>
 			<div className='account-options'>
-				<Link to='/edit-user-info' className='option-link'>
-					<div className='option'>
-						<span>Edit User Info</span>
-						<span>&gt;</span>
-					</div>
-				</Link>
 				<Link to='/manage-addresses' className='option-link'>
 					<div className='option'>
 						<span>Manage Addresses</span>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./HeroSection.css";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
 	return (
@@ -9,7 +10,9 @@ const HeroSection = () => {
 				<p>Find the best deals from students and local sellers</p>
 				<div className='hero-buttons'>
 					<button className='btn-primary'>Start Browsing</button>
+					<Link to='/post-item'>
 					<button className='btn-secondary'>Post Your Items</button>
+					</Link>
 				</div>
 			</div>
 		</div>
