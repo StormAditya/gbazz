@@ -37,13 +37,7 @@ const ProductPage = () => {
 		<div className='product-page'>
 			<div className='product-container'>
 				<div className='product-image-gallery'>
-					<button className='gallery-arrow left-arrow'>
-						<FaArrowLeft />
-					</button>
 					<img src={item.image} alt={item.name} className='product-main-image' />
-					<button className='gallery-arrow right-arrow'>
-						<FaArrowRight />
-					</button>
 				</div>
 				<div className='product-details'>
 					<h1>{item.name}</h1>
